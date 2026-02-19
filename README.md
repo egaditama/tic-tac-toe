@@ -18,6 +18,10 @@ A simple Tic Tac Toe web game built using HTML, CSS, and JavaScript with a moder
 - CSS3 (Grid & Neon Glow Effects)
 - Vanilla JavaScript
 
+## 📸 Preview
+
+![App Screenshot](assets/iPhone-14-Pro-393x852.png)
+
 ## 🚀 How to Run
 
 1. Download or clone this project
