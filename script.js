@@ -1,6 +1,9 @@
 const cells = document.querySelectorAll(".cell");
 let currentPlayer = "X";
 
+
+const resetBtn = document.getElementById("resetBtn");
+
 cells.forEach(cell => {
   cell.addEventListener("click", () => {
 
@@ -18,3 +21,18 @@ cells.forEach(cell => {
 
   });
 });
+
+resetBtn.addEventListener("click", resetGame);
+
+function resetGame() {
+  cells.forEach(cell => {
+    cell.textContent = "";
+    cell.classList.remove("x", "o", "winner");
+  });
+
+  currentPlayer = "X";
+  gameActive = true;
+  statusText.textContent = "Player X's Turn";
+}
+
+
